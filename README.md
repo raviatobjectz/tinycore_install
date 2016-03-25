@@ -32,6 +32,6 @@ Tinycore only occupies 11 MB, so a 1 GB harddisk for testing should be enough.
     
 6.) Power off, remove the ISO file from the vm and reboot.
 
-    sudo poweroff
+    poweroff
     
 7.) Enjoy the best linux ever.
