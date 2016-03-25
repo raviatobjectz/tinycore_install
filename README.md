@@ -21,13 +21,17 @@ Tinycore only occupies 11 MB, so a 1 GB harddisk for testing should be enough.
 3.) give execute privilage to the install script
 
     chmod +x ./tinyInstall.sh
+
+4.) Sudo to root
+
+    sudo su
     
-4.) run the script
+5.) run the script
 
     ./tinyInstall.sh
     
-5.) Power off, remove the ISO file from the vm and reboot.
+6.) Power off, remove the ISO file from the vm and reboot.
 
     sudo poweroff
     
-6.) Enjoy the best linux ever.
+7.) Enjoy the best linux ever.
