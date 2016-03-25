@@ -14,24 +14,28 @@ Tinycore only occupies 11 MB, so a 1 GB harddisk for testing should be enough.
 
 1.) Start the VM and boot to the prompt.
 
-2.) wget the install script 
+2.) Install openssl
+
+    tce-load -wi openssl
+    
+3.) wget the install script 
 
     wget https://raw.githubusercontent.com/raviatobjectz/tinycore_install/master/tinyInstall.sh
     
-3.) give execute privilage to the install script
+4.) give execute privilage to the install script
 
     chmod +x ./tinyInstall.sh
 
-4.) Sudo to root
+5.) Sudo to root
 
     sudo su
     
-5.) run the script
+6.) run the script
 
     ./tinyInstall.sh
     
-6.) Power off, remove the ISO file from the vm and reboot.
+7.) Power off, remove the ISO file from the vm and reboot.
 
     poweroff
     
-7.) Enjoy the best linux ever.
+8.) Enjoy the best linux ever.
