@@ -1,3 +1,4 @@
+su -c "tce-load -wi grub-0.97-splash.tcz" tc
 (echo o; echo n; echo p; echo 1; echo ; echo; echo w) | sudo fdisk /dev/sda
 (echo a; echo 1; echo w) | sudo fdisk /dev/sda
 sudo mkfs.ext4 /dev/sda1
