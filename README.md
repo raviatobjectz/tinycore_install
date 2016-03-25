@@ -1,6 +1,6 @@
-#Tinycore_Install
+#Tiny core Install
 
-Install Tinycore_OS into a virtual box hard drive.
+Install Tiny Core OS into a virtual box hard drive.
 
 ## Prerequisite
 
